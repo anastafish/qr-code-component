@@ -2,7 +2,7 @@ import React from 'react'
 import qr from '../qr-code-component-main/images/image-qr-code.png'
 
 const Qr = () => (
-    <div className='bg-white w-[220px] p-3 rounded-xl'>
+    <div className='bg-white w-[250px] p-4 rounded-xl'>
         <div className='flex justify-center items-center bg-[hsl(218, 44%, 22%)]'>
             <img src={qr} alt="" className='w-[200px] h-[200px] rounded-md'/>
         </div>
